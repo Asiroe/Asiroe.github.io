@@ -1,0 +1,26 @@
+#about{
+	color: #AAAAAA;
+	font-size: small;
+	text-align: center;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+#myssl{
+	height: 30%;
+	width: 10%;
+}
+#ttsText{
+	width: 75%
+}
+#tts_btn{
+	font-size: 15px;
+}
+#ttsSend{
+	text-align: center;
+}
+#textsend{
+	width: 75%;
+	height: 350px;
+	border-radius: 20px;
+}
