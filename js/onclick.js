@@ -1,5 +1,5 @@
 ﻿function myssl(){
-	window.open("https://myssl.com/Asiroe.github.io")
+	window.open("https:////myssl.com/Asiroe.github.io")
 }
 
 function ttsText(){
