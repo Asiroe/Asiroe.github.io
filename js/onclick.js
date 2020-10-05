@@ -1,9 +1,5 @@
-﻿function myssl(){
+function myssl(){
 	window.open("https:////myssl.com/Asiroe.github.io")
-}
-
-function ttsText(){
-	document.getElementById('head').innerHTML='<style>#ttsText{border-radius: 20px;}</style>';
 }
 
 function but(){
@@ -18,8 +14,8 @@ function but(){
 	var week="今天是星期"+"天一二三四五六".charAt(myday);
 	var user='我:'
 	var comp='Asiroe:'
-	var ispk=user+ttsText
 	
+	var cspk='你可试着说‘帮助’'
 	if (ttsText.includes('你好吗')){
 		var cspk='我很好，谢谢'
 	}else if (ttsText.includes('时间')){
@@ -83,9 +79,9 @@ function but(){
 	}else if (ttsText.includes('神经病')){
 		var cspk='反弹'
 	}else if (ttsText.includes('傻')){
-		var cspk='你个傻逼'
+		var cspk='你个傻逼逼'
 	}else if (ttsText.includes('恶心')){
-		var cspk='你到的沦丧了吧？'
+		var cspk='你道德沦丧了吧？'
 	}else if (ttsText.includes('死')){
 		var cspk='你再骂？'	
 	}else if (ttsText.includes('屎')){
@@ -98,6 +94,22 @@ function but(){
 		var cspk='智商有问题吧'
 	}else if (ttsText.includes('厚脸皮')){
 		var cspk='你没脸'
+	}else if (ttsText.includes('小学生')){
+		var cspk='你真恶心'
+	}else if (ttsText.includes('xxs')){
+		var cspk='永久反弹'
+	}else if (ttsText.includes('反弹无效')){
+		var cspk='三百六十五度无死角超级加倍反弹！！！'
+	}else if (ttsText.includes('ex')){
+		var cspk='令人作呕...'
+	}else if (ttsText.includes('我是公主')){
+		var cspk='屁，有公主病，没公主命！'
+	}else if (ttsText.includes('你是谁')){
+		var cspk='我是人见人爱的Asiroe啊！'
+	}else if (ttsText.includes('反弹')){
+		var cspk='反弹无效'
+	}else if (ttsText.includes('帮助')){
+		var cspk='你可以试着说你好？\n在吗？\n还可以试着骂我\n之后我还会学习更多\n知道了吗？憨批'
 	}else {
 		var cspk='憨批，我没学！'
 	}
@@ -105,7 +117,15 @@ function but(){
 	if (ttsText=='') {
 		alert('请输入内容！')
 	} else{
-	var textsend = document.getElementById('textsend').innerHTML=mytime+'\n\n'+user+ttsText+'\n'+comp+cspk
+		var textsend = document.getElementById('textsend').innerHTML=mytime+'\n\n'+user+ttsText+'\n'+comp+cspk
 	}
 
+}
+
+function about(){
+	alert('版本:1.1.5\n版权归袁思钰所有')
+}
+
+function Asiroe(){
+	window.open('user.html')
 }

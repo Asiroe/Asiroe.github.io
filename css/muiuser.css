@@ -1,0 +1,15 @@
+#center{
+	text-align: center;
+}
+#time{
+	font-size: 50px;
+}
+#app{
+	height: 5%;
+	width: 5%;
+}
+#app:hover{
+	height: 10%;
+	width: 10%;
+	transition: 0.5s;
+}

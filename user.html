@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title" onclick="Asiroe()">Asiroe</h1>
+		</header>
+		<link rel="stylesheet" href="css/mui.min.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/muiuser.css"/>
+		<title>Asiroe</title>
+
+	</head>
+	<body>
+		<br />
+		<br />
+		<br />
+		<div id="center">
+			<p id="time"></p>
+			<br />
+			<br />
+			<br />
+			<img src="img/app.png" id="app" onclick="app()" />
+			<p>&nbsp;下载安卓版</p>
+		</div>
+		
+		<script>
+			var myDate=new Date();
+			var myHour=myDate.getHours();
+			var myMinute=myDate.getMinutes();
+			var time=myHour+':'+myMinute
+			document.getElementById('time').innerHTML=time
+			
+			function app(){
+				window.open('download/Android/app.asiroe.apk')
+			}
+		</script>
+	</body>
+</html>
